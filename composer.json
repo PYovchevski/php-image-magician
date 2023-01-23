@@ -3,22 +3,22 @@
     "type": "library",
     "description": "PHP Image Magician",
     "keywords": ["php","image","library"],
-    "homepage": "https://github.com/Oberto/php-image-magician",
+    "homepage": "https://github.com/PYovchevski/php-image-magician",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Oberto",
-            "email": "Oberto@plumtex.com"
+            "name": "Petko Yovchevski",
+            "email": "pyovchevski@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.4",
+        "php": ">=8.0",
         "ext-gd": "*"
     },
     "autoload": {
         "classmap": ["php_image_magician.php"],
         "psr-4" : {
-            "Securimage\\" : "./"
+            "PHPImageMagician\\" : "./"
         }
     }
 }
