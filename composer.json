@@ -1,0 +1,24 @@
+{
+    "name": "pyovchevski/php-image-magician",
+    "type": "library",
+    "description": "PHP Image Magician",
+    "keywords": ["php","image","library"],
+    "homepage": "https://github.com/Oberto/php-image-magician",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Oberto",
+            "email": "Oberto@plumtex.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "classmap": ["php_image_magician.php"],
+        "psr-4" : {
+            "Securimage\\" : "./"
+        }
+    }
+}
