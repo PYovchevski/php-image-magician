@@ -1,4 +1,4 @@
-<?php
+<?
 /* This file is released under the GPL, any version you like
 *
 *	PHP PSD reader class, v1.3
@@ -9,7 +9,7 @@
 *
 *	example use:
 *	------------
-*	<?php
+*	< ?php
 *	include_once('classPhpPsdReader.php')
 *	header("Content-type: image/jpeg");
 *	print imagejpeg(imagecreatefrompsd('test.psd'));
@@ -293,3 +293,4 @@ function imagecreatefrompsd($fileName) {
 	if (isset($psdReader->infoArray['error'])) return '';
 	else return $psdReader->getImage();
 }
+?>
