@@ -1,9 +1,9 @@
 {
-    "name": "pyovchevski/php-image-magician",
+    "name": "plumtex-deps/php-image-magician",
     "type": "library",
     "description": "PHP Image Magician",
     "keywords": ["php","image","library"],
-    "homepage": "https://github.com/PYovchevski/php-image-magician",
+    "homepage": "https://github.com/plumtex-deps/php-image-magician",
     "license": "BSD-3-Clause",
     "authors": [
         {
